@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../src/index.css";
+import "./index.css";
 import MyNavbar from "./components/Navbar";
 import { add_product } from "./controllers/seller";
 
