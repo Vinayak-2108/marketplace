@@ -1,4 +1,4 @@
-const base = "http://localhost:5000/api/user";
+const base = "https://beautiful-bass-cuff.cyclic.app";
 
 export const signup_user = async (obj) => {
     const res = await fetch(`${base}/signup`, {
