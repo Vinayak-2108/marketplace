@@ -35,9 +35,9 @@ mongoose.connect("mongodb+srv://vinayak:2108@cyethack.gvglmoi.mongodb.net/cyetha
 //   console.log("yess");
 // })
 
-app.use('/', async (req, res) => {
-  res.send("heyyy from index");
-})
+// app.use('/', async (req, res) => {
+//   res.send("heyyy from index");
+// })
 app.use("/api/user", userRoutes);
 app.use("/api/seller", sellerRoutes);
 
