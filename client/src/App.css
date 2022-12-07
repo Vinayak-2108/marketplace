@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   display: flex;
@@ -38,4 +39,27 @@ button {
   border: none;
   background: none;
   text-decoration: underline;
+}
+
+/* ProductContainer */
+.prod-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-width: 14rem;
+  padding: 1rem;
+  margin: 0.25rem;
+  background-color:beige;
+  border-radius: 8px;
+}
+
+.prod-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-width: 14rem;
 }
